@@ -1,0 +1,81 @@
+		HTB{br0k 3n_4p4rt ,n3ver_t 0_b3_r3p 41r3d}
+		HTB{br0k3n_4p4rt,n3ver_t0_b3_r3p41r3d}
+
+
+	 && s[0] == 'H'
+	  && s[1] == 'T'
+	&& s[2] == 'B'
+	&& s[3] == '{'
+	&& s[4] == 'b'
+	&& s[5] == 'r'
+	&& s[6] == '0'
+	&& s[7] == 'k'
+	
+	&& (_BYTE)v5 == '3'
+	&& BYTE1(v5) == 'n'
+	&& BYTE2(v5) == '_'
+	&& BYTE3(v5) == '4'
+	&& BYTE4(v5) == 'p'
+	&& BYTE5(v5) == '4'
+	&& BYTE6(v5) == 'r'
+	&& HIBYTE(v5) == 't'
+	
+	&& (_BYTE)v6 == ','
+	&& BYTE1(v6) == 'n'
+	&& BYTE2(v6) == '3'
+	&& BYTE3(v6) == 'v'
+	&& BYTE4(v6) == 'e'
+	&& *(_WORD *)((char *)&v6 + 5) == '_r'
+	&& HIBYTE(v6) == 't'
+	
+	&& (_BYTE)v7 == '0'
+	&& BYTE1(v7) == '_'
+	&& BYTE2(v7) == 'b'
+	&& BYTE3(v7) == '3'
+	&& BYTE4(v7) == '_' 
+	&& BYTE5(v7) == 'r'
+	&& BYTE6(v7) == '3'
+	HIBYTE(v7) == 'p'
+	
+	&& (_BYTE)v8 == '4'
+	&& BYTE1(v8) == '1'
+	&& WORD1(v8) == '3r'
+	&& BYTE4(v8) == 'd'
+	&& BYTE5(v8) == '}'
+	
+	
+	
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

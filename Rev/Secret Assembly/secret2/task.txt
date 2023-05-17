@@ -1,0 +1,1 @@
+What does the function secret return when it receives as input the value 23? Use the answer to unlock the zip with the flag!

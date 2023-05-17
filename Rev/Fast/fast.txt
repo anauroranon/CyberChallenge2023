@@ -1,0 +1,4 @@
+set $rip=*print_flag+20 //To jump to the instruction where print_flag starts and the edi variable is overwritten
+set $edi=4144667480 //To set the edi pìvariable (the first parameter(key) of the print_flag function)
+ni //to jump
+x/s 0x0000000000601080 //to print the string contained in rdi starting from the address pointed by rdi

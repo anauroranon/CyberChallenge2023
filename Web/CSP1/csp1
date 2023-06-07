@@ -1,0 +1,4 @@
+For unsafe-inline: "/> at the beginning of the script
+
+For nonce and script-dynamic:
+"Strict-dynamic: It allows the browser to load and execute new JavaScript tags in the DOM from any script source that has previously been whitelisted by a "nonce" or "hash" value."

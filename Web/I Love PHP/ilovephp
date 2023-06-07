@@ -1,0 +1,14 @@
+from hashlib import md5
+import requests
+
+url = "http://100.84.44.31:9021"
+
+
+parameters = {'par':0e1137126905}
+agent = '0e1137126905'
+headers = {'User-Agent': agent}
+r = requests.get(url=url, headers=headers, params=parameters)
+print(r.text)
+
+
+

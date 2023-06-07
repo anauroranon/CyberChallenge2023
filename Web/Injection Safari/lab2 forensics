@@ -1,0 +1,5 @@
+f = open("home/kali-vol2/Scaricati/volatility/dump/708.dpm", 'w')
+
+for line in f.readlines():
+    
+

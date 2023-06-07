@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FileSharing</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-3">
+    <div class="container">
+      <a class="navbar-brand" href="/">FileSharing</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/files">
+              My files
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/upload">
+              Upload
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/play">
+              Play
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">
+                Logout
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    
+    
+    
+
+
+    
+<div class="row justify-content-center">
+
+        
+            
+            <div class="col-lg-4 col-md-6 col-8 justify-content-center">
+                <h1 class="text-center my-2">Give me some html</h1> 
+                    <form method="GET" class="mt-4">
+                        <input type="text" class="form-control mb-1 my-2" name="xss" placeholder="html">
+                        <button type="submit" class="btn btn-lg btn-primary btn-block my-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+          
+
+        
+
+  </div>
+
+
+  <div  class="d-flex justify-content-center fixed-bottom">
+    <a  href="/abuse" class="mx-auto">Report abuse</a>
+  </div>
+  
+  <!-- Bootstrap core JavaScript--> 
+  <script src="/static/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

